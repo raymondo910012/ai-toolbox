@@ -22,6 +22,11 @@ Kiro CLI Skills 集合 — 自動化工具與網路管理腳本。
 **Scripts:**
 - `ppt_create/script/create_ppt.py`
 
+### pptx
+📁 `pptx/`
+
+
+
 ### skill-auto-sync
 📁 `skill-auto-sync/`
 
@@ -38,4 +43,4 @@ Kiro CLI Skills 集合 — 自動化工具與網路管理腳本。
 | 每天 12:05 | `auto_sync.py` | /usr/bin/python3 /home/ray_wang/.kiro/skills/skill-auto-sync/script/auto_sync.py |
 
 ---
-*最後更新: 2026-05-29 12:05*
+*最後更新: 2026-06-02 12:05*
