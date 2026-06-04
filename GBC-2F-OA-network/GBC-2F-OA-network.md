@@ -54,7 +54,7 @@ description: 普生二樓 OA 網路拓譜設定備份與快速恢復。包含 A/
 | 機櫃 | Ports |
 |------|-------|
 | A | Eth1/3-18 |
-| B | Eth1/1-16, 43-48, 50-54 |
+| B | Eth1/1-16, 43-45, 48, 50-54 |
 | C | Eth1/1-16, 46-48, 50-54 |
 
 ### VLAN 25 — IT_Admin
@@ -86,7 +86,7 @@ description: 普生二樓 OA 網路拓譜設定備份與快速恢復。包含 A/
 | 機櫃 | Ports |
 |------|-------|
 | A | Eth1/1, 2, 15, 16 |
-| B | Eth1/35, 49 |
+| B | Eth1/35, 43(Access), 49 |
 | C | 未設定 |
 
 ### VLAN 160 — Printer_DoorAccess
@@ -94,7 +94,7 @@ description: 普生二樓 OA 網路拓譜設定備份與快速恢復。包含 A/
 | 機櫃 | Ports |
 |------|-------|
 | A | Eth1/1, 2, 16 |
-| B | Eth1/33-34, 49 |
+| B | Eth1/33-34, 46-47(Access), 49 |
 | C | Eth1/33-40, 43-45, 49 |
 
 ### VLAN 168 — IPCAM
@@ -131,9 +131,12 @@ description: 普生二樓 OA 網路拓譜設定備份與快速恢復。包含 A/
 | Eth1/1-16 | 51, 100, 203 | AP / WiFi 接入 |
 | Eth1/17-32 | 168 | IPCAM 攝影機 |
 | Eth1/33-34 | 160 | Printer / 門禁 |
-| Eth1/35 | 119 | Maintenance |
+| Eth1/35 | 119 | Maintenance (Access) |
 | Eth1/36-38 | 25 | IT Admin |
 | Eth1/39-42 | 100 | ACCGUEST |
+| Eth1/43 | 119 | Maintenance (Access) |
+| Eth1/44-45 | 1 | DefaultVlan |
+| Eth1/46-47 | 160 | Printer / 門禁 (Access) |
 | Eth1/49 | trunk | Uplink to A 機櫃 |
 
 ### C 機櫃 (54 port)
