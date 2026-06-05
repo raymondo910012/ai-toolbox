@@ -43,4 +43,4 @@ Kiro CLI Skills 集合 — 自動化工具與網路管理腳本。
 | 每天 12:05 | `auto_sync.py` | /usr/bin/python3 /home/ray_wang/.kiro/skills/skill-auto-sync/script/auto_sync.py |
 
 ---
-*最後更新: 2026-06-05 12:05*
+*最後更新: 2026-06-05 13:07*

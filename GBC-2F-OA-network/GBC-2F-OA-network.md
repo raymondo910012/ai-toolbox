@@ -95,7 +95,7 @@ description: 普生二樓 OA 網路拓譜設定備份與快速恢復。包含 A/
 |------|-------|
 | A | Eth1/1, 2, 16 |
 | B | Eth1/33-34, 46-47(Access), 49 |
-| C | Eth1/33-40, 43-45, 49 |
+| C | Eth1/33-40, 43-47(46-47 Access), 49 |
 
 ### VLAN 168 — IPCAM
 
@@ -147,6 +147,7 @@ description: 普生二樓 OA 網路拓譜設定備份與快速恢復。包含 A/
 | Eth1/33-40 | 160 | Printer / 門禁 |
 | Eth1/41-42 | 100 | ACCGUEST |
 | Eth1/43-45 | 160 | Printer / 門禁 |
+| Eth1/46-47 | 160 | Printer / 門禁 (Access) |
 | Eth1/49 | trunk | Uplink to A 機櫃 |
 
 ## 恢復指令語法
