@@ -1,0 +1,18 @@
+To https://github.com/raymondo910012/ai-toolbox.git
+   e7782e5..b2d3165  main -> main
+to-push scripts and environment setup
+ Date: Tue Jun 16 22:31:34 2026 +0800
+ 12 files changed, 221 insertions(+)
+ create mode 100644 scripts/check_env.sh
+ create mode 100644 scripts/check_result.txt
+ create mode 100644 scripts/do_push.bat
+ create mode 100644 scripts/fix_and_push.bat
+ create mode 100644 scripts/git_push.bat
+ create mode 100644 scripts/push_aitoolbox.bat
+ create mode 100644 scripts/push_project.sh
+ create mode 100644 scripts/push_result.txt
+ create mode 100644 scripts/run_check.bat
+ create mode 100644 scripts/run_setup_git.bat
+ create mode 100644 scripts/setup_git_wsl.sh
+ create mode 100644 scripts/setup_result.txt
+=== Done ===
