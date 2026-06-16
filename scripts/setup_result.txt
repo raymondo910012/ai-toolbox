@@ -1,0 +1,10 @@
+=== Setting up Git in WSL ===
+Git config done.
+Name:  raymondo910012
+Email: raymondo910012@gmail.com
+Cred:  store
+
+=== Testing GitHub access ===
+e7782e58c2a8c38520a5eb7f1e6284ab9acdbf30	HEAD
+
+=== Setup complete! ===

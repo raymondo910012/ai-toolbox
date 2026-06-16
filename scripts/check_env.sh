@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "=== WSL Environment Check ==="
+echo "User: $(whoami)"
+echo "Git: $(git --version 2>/dev/null || echo 'NOT INSTALLED')"
+echo "Python3: $(python3 --version 2>/dev/null || echo 'NOT INSTALLED')"
+echo "Node: $(node --version 2>/dev/null || echo 'NOT INSTALLED')"
+echo ""
+echo "=== Git Config ==="
+echo "Name: $(git config --global user.name 2>/dev/null || echo 'NOT SET')"
+echo "Email: $(git config --global user.email 2>/dev/null || echo 'NOT SET')"
+echo ""
+echo "=== Network ==="
+curl -s -o /dev/null -w "GitHub reachable: HTTP %{http_code}\n" https://github.com
+echo ""
+echo "=== Projects Folder ==="
+ls /mnt/c/Projects/ 2>/dev/null || echo "Cannot access /mnt/c/Projects"

@@ -1,0 +1,15 @@
+=== WSL Environment Check ===
+User: ray
+Git: git version 2.53.0
+Python3: Python 3.14.4
+Node: NOT INSTALLED
+
+=== Git Config ===
+Name: NOT SET
+Email: NOT SET
+
+=== Network ===
+GitHub reachable: HTTP 200
+
+=== Projects Folder ===
+ai-toolbox
