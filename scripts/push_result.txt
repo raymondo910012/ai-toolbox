@@ -1,1 +1,14 @@
-=== Pushing: /mnt/c/Projects/ai-toolbox ===
+To https://github.com/raymondo910012/ai-toolbox.git
+   b2d3165..938df03  main -> main
+push.bat
+D  scripts/fix_and_push.bat
+D  scripts/git_push.bat
+D  scripts/push_aitoolbox.bat
+M  scripts/push_result.txt
+[main 938df03] chore: remove obsolete bat files
+ 6 files changed, 21 insertions(+), 113 deletions(-)
+ create mode 100644 scripts/amend_result.txt
+ delete mode 100644 scripts/fix_and_push.bat
+ delete mode 100644 scripts/git_push.bat
+ delete mode 100644 scripts/push_aitoolbox.bat
+=== Push complete ===

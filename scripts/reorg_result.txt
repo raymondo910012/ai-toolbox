@@ -1,0 +1,77 @@
+=== Step 1: git mv work projects ===
+R  GBC-2F-OA-network/GBC-2F-OA-network.md -> work/GBC-2F-OA-network/GBC-2F-OA-network.md
+R  GBC-2F-OA-network/script/check_traffic.py -> work/GBC-2F-OA-network/script/check_traffic.py
+R  GBC-2F-OA-network/script/daily_monitor.py -> work/GBC-2F-OA-network/script/daily_monitor.py
+R  GBC-2F-OA-network/script/restore_config.py -> work/GBC-2F-OA-network/script/restore_config.py
+R  README.md -> work/README.md
+R  ppt_create/ppt_skill.md -> work/ppt_create/ppt_skill.md
+R  ppt_create/script/create_ppt.py -> work/ppt_create/script/create_ppt.py
+R  pptx/LICENSE.txt -> work/pptx/LICENSE.txt
+R  pptx/SKILL.md -> work/pptx/SKILL.md
+R  pptx/editing.md -> work/pptx/editing.md
+R  pptx/pptxgenjs.md -> work/pptx/pptxgenjs.md
+R  pptx/scripts/__init__.py -> work/pptx/scripts/__init__.py
+R  pptx/scripts/add_slide.py -> work/pptx/scripts/add_slide.py
+R  pptx/scripts/clean.py -> work/pptx/scripts/clean.py
+R  pptx/scripts/office/helpers/__init__.py -> work/pptx/scripts/office/helpers/__init__.py
+R  pptx/scripts/office/helpers/merge_runs.py -> work/pptx/scripts/office/helpers/merge_runs.py
+R  pptx/scripts/office/helpers/simplify_redlines.py -> work/pptx/scripts/office/helpers/simplify_redlines.py
+R  pptx/scripts/office/pack.py -> work/pptx/scripts/office/pack.py
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd
+R  pptx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd -> work/pptx/scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd
+R  pptx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd -> work/pptx/scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd
+R  pptx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd -> work/pptx/scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd
+R  pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd -> work/pptx/scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd
+R  pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd -> work/pptx/scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd
+R  pptx/scripts/office/schemas/mce/mc.xsd -> work/pptx/scripts/office/schemas/mce/mc.xsd
+R  pptx/scripts/office/schemas/microsoft/wml-2010.xsd -> work/pptx/scripts/office/schemas/microsoft/wml-2010.xsd
+R  pptx/scripts/office/schemas/microsoft/wml-2012.xsd -> work/pptx/scripts/office/schemas/microsoft/wml-2012.xsd
+R  pptx/scripts/office/schemas/microsoft/wml-2018.xsd -> work/pptx/scripts/office/schemas/microsoft/wml-2018.xsd
+R  pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd -> work/pptx/scripts/office/schemas/microsoft/wml-cex-2018.xsd
+R  pptx/scripts/office/schemas/microsoft/wml-cid-2016.xsd -> work/pptx/scripts/office/schemas/microsoft/wml-cid-2016.xsd
+R  pptx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd -> work/pptx/scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd
+R  pptx/scripts/office/schemas/microsoft/wml-symex-2015.xsd -> work/pptx/scripts/office/schemas/microsoft/wml-symex-2015.xsd
+R  pptx/scripts/office/soffice.py -> work/pptx/scripts/office/soffice.py
+R  pptx/scripts/office/unpack.py -> work/pptx/scripts/office/unpack.py
+R  pptx/scripts/office/validate.py -> work/pptx/scripts/office/validate.py
+R  pptx/scripts/office/validators/__init__.py -> work/pptx/scripts/office/validators/__init__.py
+R  pptx/scripts/office/validators/base.py -> work/pptx/scripts/office/validators/base.py
+R  pptx/scripts/office/validators/docx.py -> work/pptx/scripts/office/validators/docx.py
+R  pptx/scripts/office/validators/pptx.py -> work/pptx/scripts/office/validators/pptx.py
+R  pptx/scripts/office/validators/redlining.py -> work/pptx/scripts/office/validators/redlining.py
+R  pptx/scripts/thumbnail.py -> work/pptx/scripts/thumbnail.py
+R  skill-auto-sync/script/auto_sync.py -> work/skill-auto-sync/script/auto_sync.py
+R  skill-auto-sync/skill-auto-sync.md -> work/skill-auto-sync/skill-auto-sync.md
+
+=== Step 2: Create lab/README.md ===
+  lab/README.md created
+
+=== Step 3: Create root README.md ===
+  root README.md created
+
+=== Step 4: Commit & push ===
