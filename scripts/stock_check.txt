@@ -1,0 +1,11 @@
+=== List parent folder ===
+股票分析
+
+=== Try cd ===
+cd OK: /mnt/c/Users/USER/Claude/Projects/股票分析
+
+=== Remote ===
+no remote
+
+=== Log ===
+(no commits yet)

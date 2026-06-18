@@ -1,1 +1,4 @@
-=== Pushing: /mnt/c/Projects/ai-toolbox ===
+warning: in the working copy of 'work/READMEM  README.md
+M  personal_lab/README.md
+M  scripts/do_push.bat
+MTo https://github.com/raymondo910012/ai-t

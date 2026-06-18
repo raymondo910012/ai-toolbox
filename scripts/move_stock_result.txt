@@ -1,0 +1,30 @@
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: will change to "main" in Git 3.0. To configure the initial branch name
+hint: to use in all of your new repositories, which will suppress this warning,
+hint: call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+warning: in the working copy of 'taiwan-market-heatmap.html', CRLF will be replaced by LF the nexA  .gitignore
+A  "READTo https://github.com/raymondo910012/stock-analysis.git
+ * [new branch]      main -> main
+-market-heatmap.html
+A  "\345\217\260\350\202\241\347\206\261\345\212\233\345\234\226_\344\272\244\346\216\245\346\226\207\344\273\266.docx"
+A  "\346\233\264\346\226\260\347\206\261\345\212\233\345\234\226.bat"
+[master (root-commit) e75f12e] feat: initial commit - 台股分析工具移轉
+ 6 files changed, 647 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 "README_\350\263\207\346\226\231\344\270\262\346\216\245.md"
+ create mode 100644 fetch_heatmap_data.py
+ create mode 100644 taiwan-market-heatmap.html
+ create mode 100644 "\345\217\260\350\202\241\347\206\261\345\212\233\345\234\226_\344\272\244\346\216\245\346\226\207\344\273\266.docx"
+ create mode 100644 "\346\233\264\346\226\260\347\206\261\345\212\233\345\234\226.bat"
+branch 'main' set up to track 'origin/main'.
+
+=== Done: https://github.com/raymondo910012/stock-analysis ===
