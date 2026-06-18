@@ -31,9 +31,9 @@ if [ -f "$REPO_ROOT/work/README.md" ]; then
     sed -i "s|\*最後更新:.*|\*最後更新: $TODAY\*|g" "$REPO_ROOT/work/README.md"
 fi
 
-# Update lab/README.md if it exists
-if [ -f "$REPO_ROOT/lab/README.md" ]; then
-    sed -i "s|\*最後更新:.*|\*最後更新: $TODAY\*|g" "$REPO_ROOT/lab/README.md"
+# Update personal_lab/README.md if it exists
+if [ -f "$REPO_ROOT/personal_lab/README.md" ]; then
+    sed -i "s|\*最後更新:.*|\*最後更新: $TODAY\*|g" "$REPO_ROOT/personal_lab/README.md"
 fi
 
 git add .
