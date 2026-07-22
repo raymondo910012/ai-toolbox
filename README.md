@@ -1,25 +1,46 @@
 # ai-toolbox
 
-Ray 的 AI 工具與腳本集合，分為兩個主要區域：
+Kiro CLI Skills 集合 — 自動化工具與網路管理腳本。
 
-## 📁 work/ — 工作專案
+## Skills 列表
 
-公司 IT 相關的自動化工具、網路管理腳本、簡報生成等。
+### GBC-2F-OA-network
+📁 `GBC-2F-OA-network/`
 
-| 專案 | 說明 |
-|------|------|
-| `GBC-2F-OA-network/` | 普生二樓 OA 網路拓譜設定備份與快速恢復 |
-| `ppt_create/` | EC (Edgecore) 模板 PPT 自動生成 |
-| `pptx/` | python-pptx 操作 skill |
-| `skill-auto-sync/` | 每日自動 sync skills 到 GitHub |
+普生二樓 OA 網路拓譜設定備份與快速恢復。包含 A/B/C 三台機櫃交換機的 VLAN 設定、Port 分配、Uplink 連線關係。當網路出問題時可用此 skill 快速恢復為正確設定。
 
-## 🧪 lab/ — 個人實驗室
+**Scripts:**
+- `GBC-2F-OA-network/script/check_traffic.py`
+- `GBC-2F-OA-network/script/daily_monitor.py`
+- `GBC-2F-OA-network/script/restore_config.py`
 
-工作以外，因興趣或學習所做的探索性專案。
+### create_ppt
+📁 `ppt_create/`
 
-## 🛠️ scripts/ — 推送工具
+使用 python-pptx 建立或修改 PPT 簡報。套用 EC (Edgecore) 模板背景，內容排版參考 Kiro_Introduction 風格。適用於需要產生投影片的場景。
 
-Claude 自動推送用的 WSL 腳本（不含業務邏輯）。
+**Scripts:**
+- `ppt_create/script/create_ppt.py`
+
+### pptx
+📁 `pptx/`
+
+
+
+### skill-auto-sync
+📁 `skill-auto-sync/`
+
+每天中午 12 點自動檢查 skills 資料夾是否有變更，若有則自動 commit 並 push 到 GitHub repo (raymondo910012/ai-toolbox)。
+
+**Scripts:**
+- `skill-auto-sync/script/auto_sync.py`
+
+## 排程 (Crontab)
+
+| 時間 | 腳本 | 說明 |
+|------|------|------|
+| 每天 12:00 | `daily_monitor.py` | /usr/bin/python3 /home/ray_wang/.kiro/skills/GBC-2F-OA-network/script/daily_monitor.py |
+| 每天 12:05 | `auto_sync.py` | /usr/bin/python3 /home/ray_wang/.kiro/skills/skill-auto-sync/script/auto_sync.py |
 
 ---
-*最後更新: 2026-06-18*
+*最後更新: 2026-07-22 12:05*
